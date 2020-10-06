@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Clases utilitarias  */
+.btn-principal{
+    background: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 2.43531202435312vh  6.0882800608828vh 2.43531202435312vh;
+    border-radius: 76.10350076103501vh;
+    letter-spacing: 0.15220700152207vh;
+    font-weight: bold;
+
+}
+
+/* Navbar */
+#navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.73972602739726vh 0;
+}
+
+.logo{
+    height:5.327245053272451vh ;
+    width: auto;
+}
+ #navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#navbar .navbar-container li{
+    padding: 0 3.0441400304414vh ;
+}
+#navbar .navbar-container li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+/* Showcase */
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('/assets/img/Desktop\ -\ 1.jpg') center center/cover;
+
+}
+
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#showcase .showcase-container h2{
+    font-size: 7rem;
+    text-align: center;
+    color: #1DB954;
+}
+
+ #showcase .showcase-container p{
+    margin: 2.2831050228310503vh 0;
+    font-size: 1.1rem;
+    color: #1DB954;
+
+}
+
+/* Footer */
+
+#footer{
+    background: black;
+    color: white;
+    padding: 13.377926421404682vh 0;
+}
+.footer-conteiner{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.footer-menu{
+    margin: 0 6.688963210702341vh;
+    list-style: none;
+}
+
+.footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+.footer-menu-item{
+    margin: 4.1118421052631575vh 0;
+}
+
+.redes-sociais{
+    display: flex;
+}
+.redes-sociais i{
+    margin: 0 3.289473684210526vh;
+    font-size: 1.7rem;
+}
+
+/* Info */
+.footer-info{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    font-weight: bold;
+    color:#919496;
+    font-size: 0.75rem;
+
+}
+.footer-info-items{
+    display: flex;
+    list-style: none;
+}
+.footer-info-item{
+    margin: 0 1.644736842105263vh;
+    
+}
+.direitos-br{
+    display: flex;
+    justify-content: flex-end;
+}
+.direitos-br .pais .BR{
+    height: 3.289473684210526vh;
+    width: auto;
+    display: inline-block;
+    margin-left:  1.644736842105263vh;
+    
+}
