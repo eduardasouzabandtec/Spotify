@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 0, 0,0.9);
+}
+.conteiner{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+/* menu-player lateral */
+.container-menu{
+    width: 250px;
+    height: auto;
+    background-color: black;
+
+}
+.menu-item{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.menu-item label{
+    margin-top: 20%;
+    color: white;
+}
+.menu-item label img {
+    width:3.0441400304414vh;
+    height: 3.0441400304414vh;
+    color: blue;
+}
+
+
+.logo{
+    margin-top: 10%;
+    height:5.327245053272451vh ;
+    width: auto;
+   margin-left: 10%;
+}
